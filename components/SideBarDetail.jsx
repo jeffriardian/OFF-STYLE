@@ -32,7 +32,7 @@ const Sidebar = () => {
   );
 
   const wrapperClasses = classNames(
-    "h-max-full px-4 pt-8 pb-4 bg-light flex justify-between flex-col",
+    "h-max-full px-4 pt-8 pb-4 flex justify-between flex-col border-2 border-black",
     {
       ["w-80"]: !toggleCollapse,
       ["w-20"]: toggleCollapse,
@@ -116,17 +116,17 @@ const Sidebar = () => {
                 );
             })}
         </div>
-      </div>
 
-      <div className={`${getNavItemClasses({})} px-3 py-4`}>
-        <div style={{ width: "2.5rem" }}>
-          <ExitToAppOutlinedIcon className="text-text-light" />
+        <div className={`${getNavItemClasses({})} px-3 py-4`}>
+          <div style={{ width: "2.5rem" }}>
+            <ExitToAppOutlinedIcon className="text-text-light" />
+          </div>
+          {!toggleCollapse && (
+            <span className={classNames("text-md font-medium text-text-light")}>
+              Exit
+            </span>
+          )}
         </div>
-        {!toggleCollapse && (
-          <span className={classNames("text-md font-medium text-text-light")}>
-            Exit
-          </span>
-        )}
       </div>
     </div>
   );

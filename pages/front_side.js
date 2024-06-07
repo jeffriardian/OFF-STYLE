@@ -373,7 +373,7 @@ export default function Home() {
                             </div>
                             <div className="mr-4 flex items-center" onClick={toggleMaterialForm}>
                                 <AddHomeOutlinedIcon className="w-6 h-6" />
-                                <span className="ml-2">Material</span>
+                                <span className="ml-2">Details</span>
                             </div>
                         </div>
                     </div>
@@ -497,7 +497,7 @@ export default function Home() {
 
                     {showMaterialForm && (
                         <div className="container text-text-light bg-white mx-auto px-4 border-2 border-black mt-4">
-                            <h2 className="font-bold text-xl mb-4">Material Form</h2>
+                            <h2 className="font-bold text-xl mb-4 text-center">FRONT SIDE</h2>
                             <form>
                                 <div>
                                     <label>Other Printing Method (Additional):</label>
@@ -518,38 +518,110 @@ export default function Home() {
                                 <div>
                                     <label>Sizes & Quantity:</label>
                                     <div className="flex space-x-4 mb-4">
-                                        <label className="flex items-center">
-                                            <input type="checkbox" className="mr-2" />
-                                            XS
-                                        </label>
-                                        <label className="flex items-center">
-                                            <input type="checkbox" className="mr-2" />
-                                            S
-                                        </label>
-                                        <label className="flex items-center">
-                                            <input type="checkbox" className="mr-2" />
-                                            M
-                                        </label>
-                                        <label className="flex items-center">
-                                            <input type="checkbox" className="mr-2" />
-                                            L
-                                        </label>
-                                        <label className="flex items-center">
-                                            <input type="checkbox" className="mr-2" />
-                                            XL
-                                        </label>
-                                        <label className="flex items-center">
-                                            <input type="checkbox" className="mr-2" />
-                                            2XL
-                                        </label>
-                                        <label className="flex items-center">
-                                            <input type="checkbox" className="mr-2" />
-                                            3XL
-                                        </label>
+                                        <div className='w-12'>
+                                        </div>
+                                        <div className='w-12'>
+                                            <label className="flex items-center">
+                                                <input type="checkbox" className="mr-2 border rounded p-2 w-4 h-7" />
+                                                XS
+                                            </label>
+                                        </div>
+
+                                        <div className='w-12'>
+                                            <label className="flex items-center">
+                                                <input type="checkbox" className="mr-2" />
+                                                S
+                                            </label>
+                                        </div>
+
+                                        <div className='w-12'>
+                                            <label className="flex items-center">
+                                                <input type="checkbox" className="mr-2" />
+                                                M
+                                            </label>
+                                        </div>
+                                        
+                                        <div className='w-12'>
+                                            <label className="flex items-center">
+                                                <input type="checkbox" className="mr-2" />
+                                                L
+                                            </label>
+                                        </div>
+                                        
+                                        <div className='w-12'>
+                                            <label className="flex items-center">
+                                                <input type="checkbox" className="mr-2" />
+                                                XL
+                                            </label>
+                                        </div>
+
+                                        <div className='w-12'>
+                                            <label className="flex items-center">
+                                                <input type="checkbox" className="mr-2" />
+                                                2XL
+                                            </label>
+                                        </div>
+                                        
+                                        <div className='w-12'>
+                                            <label className="flex items-center">
+                                                <input type="checkbox" className="mr-2" />
+                                                3XL
+                                            </label>
+                                        </div>
                                     </div>
-                                    <div className="flex items-center mb-4">
-                                        <label className="mr-2">QTY:</label>
-                                        <input type="number" className="border rounded p-2 w-20" />
+                                    
+                                    <div className="flex space-x-4 mb-4">
+                                        <div className='w-12'>
+                                            <label className="flex items-center">
+                                                QTY : 
+                                            </label>
+                                        </div>
+                                        <div className='w-12'>
+                                            <label className="flex items-center">
+                                                <input type="text" className="border rounded p-2 w-10 h-7" />
+                                            </label>
+                                        </div>
+            
+                                        <div className='w-12'>
+                                            <label className="flex items-center">
+                                                <input type="text" className="border rounded p-2 w-10 h-7" />
+                                            </label>
+                                        </div>
+
+                                        <div className='w-12'>
+                                            <label className="flex items-center">
+                                                <input type="text" className="border rounded p-2 w-10 h-7" />
+                                            </label>
+                                        </div>
+                                            
+                                        <div className='w-12'>
+                                            <label className="flex items-center">
+                                                <input type="text" className="border rounded p-2 w-10 h-7" />
+                                            </label>
+                                        </div>
+
+                                        <div className='w-12'>
+                                            <label className="flex items-center">
+                                                <input type="text" className="border rounded p-2 w-10 h-7" />
+                                            </label>
+                                        </div>
+
+                                        <div className='w-12'>
+                                            <label className="flex items-center">
+                                                <input type="text" className="border rounded p-2 w-10 h-7" />
+                                            </label>
+                                        </div>
+
+                                        <div className='w-12'>
+                                            <label className="flex items-center">
+                                                <input type="text" className="border rounded p-2 w-10 h-7" />
+                                            </label>
+                                        </div>
+                                        
+                                        <div className="flex items-center mb-4">
+                                            <label className="mr-2">TOTAL QTY:</label>
+                                            <input type="number" className="border rounded p-2 w-20 h-7" />
+                                        </div>
                                     </div>
                                 </div>
                             </form>

@@ -63,16 +63,6 @@ export default function Home() {
                 className="max-h-80 max-w-full w-full h-full object-cover rounded-xl"
                 style={{ objectFit: 'cover' }} // Apply object-fit: cover here
               />
-              <div className="px-4 py-3 w-auto">
-                <p className="text-lg font-bold text-text-light truncate block capitalize">
-                  {subtitle}
-                </p>
-                <div className="flex items-center">
-                  <p className="text-lg font-semibold text-text-light cursor-auto my-3">
-                    {description}
-                  </p>
-                </div>
-              </div>
             </Link>
           </div>
           </div>

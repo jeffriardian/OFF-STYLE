@@ -11,12 +11,12 @@ export default function Home() {
   
       const menuItem1 = [
         {
-          title: "Front Size",
+          title: "Front Side",
           image: '/assets/OFF-STYLE/2.png',
           link: '/front_side'
         },
         {
-          title: "Back Size",
+          title: "Back Side",
           image: '/assets/OFF-STYLE/3.png',
           link: '/back_side'
         },
@@ -29,7 +29,7 @@ export default function Home() {
             <p className="font-bold text-lg text-gray-500 px-2 pt-4"> Click any side to start the edit... </p>
             <p className="font-bold text-base text-gray-500 px-2 py-4"> Tip: You can change the project title! </p>
             
-            <div className="container bg-white mx-auto px-4 border-2 border-black">
+            <div className="container bg-light mx-auto px-4 border-2 border-black">
                 <div className="w-full h-full mx-auto p-4 py-4 grid md:grid-cols-1">
                     {menuItem.map(({ title, image }, index) => {
                         return (
