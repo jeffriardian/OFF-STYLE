@@ -12,12 +12,12 @@ export default function Home() {
       const menuItem1 = [
         {
           title: "Front Side",
-          image: '/assets/OFF-STYLE/2.png',
+          image: '/assets/OFF-STYLE/8.png',
           link: '/front_side'
         },
         {
           title: "Back Side",
-          image: '/assets/OFF-STYLE/3.png',
+          image: '/assets/OFF-STYLE/9.png',
           link: '/back_side'
         },
       ];
